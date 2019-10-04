@@ -8,4 +8,5 @@ services:
     volumes:
       - "./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg"
     ports:
+      - "5000:5000"
       - "8404:8404"
